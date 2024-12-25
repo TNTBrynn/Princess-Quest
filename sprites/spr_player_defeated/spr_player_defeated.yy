@@ -12,12 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7c9f541-a53f-4e77-ad3e-15a13c240118","name":"c7c9f541-a53f-4e77-ad3e-15a13c240118","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e7dd53c-9ae0-4591-a258-b4cf0386917e","name":"1e7dd53c-9ae0-4591-a258-b4cf0386917e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9e65bf3f-ece4-455f-af21-88d71b494ead","name":"9e65bf3f-ece4-455f-af21-88d71b494ead","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8b0f5f39-6f40-4c07-9f18-336cfce47407","name":"8b0f5f39-6f40-4c07-9f18-336cfce47407","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"78a91151-871d-4798-b644-f9b4e7227aaa","name":"78a91151-871d-4798-b644-f9b4e7227aaa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"333ef440-fadc-4511-bc29-9ae487314125","name":"333ef440-fadc-4511-bc29-9ae487314125","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2ec1deb8-876a-479b-ac8b-0d085893d3ce","name":"2ec1deb8-876a-479b-ac8b-0d085893d3ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":100,
+  "height":320,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"ac2249b3-3811-416a-b2ac-25ae1a719abe","blendMode":0,"displayName":"default","isLocked":false,"name":"ac2249b3-3811-416a-b2ac-25ae1a719abe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -50,7 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":5.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -60,7 +63,7 @@
     },
     "name":"spr_player_defeated",
     "playback":1,
-    "playbackSpeed":4.0,
+    "playbackSpeed":2.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,17 +73,26 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7c9f541-a53f-4e77-ad3e-15a13c240118","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b4312d3b-67a6-45cc-8f81-291fbb37523b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e65bf3f-ece4-455f-af21-88d71b494ead","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"67223f29-7d78-4ff0-8792-9cb3792f5746","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e7dd53c-9ae0-4591-a258-b4cf0386917e","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"abc4a1d0-8bc8-4337-a46f-1ca84cc2f10b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8b0f5f39-6f40-4c07-9f18-336cfce47407","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"89e6f4fb-684e-45e1-88e4-c4d6b9129481","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78a91151-871d-4798-b644-f9b4e7227aaa","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3ad584d2-22a5-4528-afd6-64b8df7bb0f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"333ef440-fadc-4511-bc29-9ae487314125","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"475b7dfe-3a25-4c06-b5aa-029ee10c6c7c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ec1deb8-876a-479b-ac8b-0d085893d3ce","path":"sprites/spr_player_defeated/spr_player_defeated.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ddc01013-89d4-4048-840a-605c8d02a182","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":50,
-    "yorigin":50,
+    "xorigin":192,
+    "yorigin":160,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
@@ -90,5 +102,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":384,
 }
