@@ -20,5 +20,6 @@ image_index += 0;
 /// @DnDVersion : 1
 /// @DnDHash : 314651C1
 /// @DnDComment : Reset the horizontal scale$(13_10)to 1 so the player faces$(13_10)right again
-image_xscale = 1;
-image_yscale = 1;
+/// @DnDArgument : "xscale" "1.4"
+/// @DnDArgument : "yscale" "1.4"
+image_xscale = 1.4;image_yscale = 1.4;

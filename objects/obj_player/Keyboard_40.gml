@@ -16,3 +16,10 @@ y += move_speed;
 /// @DnDSaveInfo : "spriteind" "spr_player_walk_down"
 sprite_index = spr_player_walk_down;
 image_index += 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 73FDD391
+/// @DnDArgument : "xscale" "1.4"
+/// @DnDArgument : "yscale" "1.4"
+image_xscale = 1.4;image_yscale = 1.4;
