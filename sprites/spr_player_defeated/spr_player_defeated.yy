@@ -27,7 +27,7 @@
   ],
   "name":"spr_player_defeated",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Player",
     "path":"folders/Sprites/Player.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":192,
+    "xorigin":130,
     "yorigin":160,
   },
   "swatchColours":null,
