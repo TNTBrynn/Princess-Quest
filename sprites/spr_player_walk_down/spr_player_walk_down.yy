@@ -30,7 +30,7 @@
   ],
   "name":"spr_player_walk_down",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Player",
     "path":"folders/Sprites/Player.yy",
@@ -114,7 +114,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
+    "xorigin":36,
     "yorigin":36,
   },
   "swatchColours":null,

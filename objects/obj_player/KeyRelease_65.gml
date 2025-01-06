@@ -12,8 +12,15 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 		/// @DnDVersion : 1
 		/// @DnDHash : 2D7D988A
 		/// @DnDParent : 73F98D31
-		/// @DnDArgument : "imageind" "1"
 		/// @DnDArgument : "spriteind" "spr_player_idle_left"
 		/// @DnDSaveInfo : "spriteind" "spr_player_idle_left"
 		sprite_index = spr_player_idle_left;
-		image_index = 1;}}
+		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+		/// @DnDVersion : 1
+		/// @DnDHash : 75295203
+		/// @DnDParent : 73F98D31
+		/// @DnDArgument : "xscale" "1.4"
+		/// @DnDArgument : "yscale" "1.4"
+		image_xscale = 1.4;image_yscale = 1.4;}}
