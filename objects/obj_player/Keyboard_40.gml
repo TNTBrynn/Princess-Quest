@@ -8,17 +8,16 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDParent : 2CC4FACB
 	/// @DnDArgument : "key" "ord("S")"
 	/// @DnDArgument : "not" "1"
-	var l1CA58F86_0;l1CA58F86_0 = keyboard_check(ord("S"));if (!l1CA58F86_0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+	var l1CA58F86_0;l1CA58F86_0 = keyboard_check(ord("S"));if (!l1CA58F86_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 167E8123
+		/// @DnDHash : 1C0D4389
 		/// @DnDParent : 1CA58F86
-		/// @DnDArgument : "key" "ord("E")"
-		/// @DnDArgument : "not" "1"
-		var l167E8123_0;l167E8123_0 = keyboard_check(ord("E"));if (!l167E8123_0){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDArgument : "var" "is_attacking"
+		if(is_attacking == 0){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 7498BB94
 			/// @DnDComment : Add move_speed to$(13_10)Y so it moves down
-			/// @DnDParent : 167E8123
+			/// @DnDParent : 1C0D4389
 			/// @DnDArgument : "value" "move_speed"
 			/// @DnDArgument : "value_relative" "1"
 			/// @DnDArgument : "instvar" "1"
@@ -27,7 +26,7 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 			/// @DnDVersion : 1
 			/// @DnDHash : 73FDD391
-			/// @DnDParent : 167E8123
+			/// @DnDParent : 1C0D4389
 			/// @DnDArgument : "xscale" "1.4"
 			/// @DnDArgument : "yscale" "1.4"
 			image_xscale = 1.4;image_yscale = 1.4;
@@ -36,7 +35,7 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			/// @DnDVersion : 1
 			/// @DnDHash : 6E40BDD7
 			/// @DnDComment : Walk down sprite
-			/// @DnDParent : 167E8123
+			/// @DnDParent : 1C0D4389
 			/// @DnDArgument : "imageind_relative" "1"
 			/// @DnDArgument : "spriteind" "spr_player_walk_down"
 			/// @DnDSaveInfo : "spriteind" "spr_player_walk_down"

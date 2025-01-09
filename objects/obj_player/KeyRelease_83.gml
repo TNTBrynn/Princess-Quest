@@ -8,11 +8,16 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDParent : 1B0949D6
 	/// @DnDArgument : "key" "vk_down"
 	/// @DnDArgument : "not" "1"
-	var l7CFD7189_0;l7CFD7189_0 = keyboard_check(vk_down);if (!l7CFD7189_0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	var l7CFD7189_0;l7CFD7189_0 = keyboard_check(vk_down);if (!l7CFD7189_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 60AD8008
+		/// @DnDHash : 30D954FF
 		/// @DnDParent : 7CFD7189
-		/// @DnDArgument : "spriteind" "spr_player_idle_down"
-		/// @DnDSaveInfo : "spriteind" "spr_player_idle_down"
-		sprite_index = spr_player_idle_down;
-		image_index = 0;}}
+		/// @DnDArgument : "var" "is_attacking"
+		if(is_attacking == 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 60AD8008
+			/// @DnDParent : 30D954FF
+			/// @DnDArgument : "spriteind" "spr_player_idle_down"
+			/// @DnDSaveInfo : "spriteind" "spr_player_idle_down"
+			sprite_index = spr_player_idle_down;
+			image_index = 0;}}}
