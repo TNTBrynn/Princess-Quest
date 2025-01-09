@@ -23,9 +23,9 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 		/// @DnDComment : Walk to side sprite
 		/// @DnDParent : 6022E6F8
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_player_walk_side"
-		/// @DnDSaveInfo : "spriteind" "spr_player_walk_side"
-		sprite_index = spr_player_walk_side;
+		/// @DnDArgument : "spriteind" "spr_player_walk_left"
+		/// @DnDSaveInfo : "spriteind" "spr_player_walk_left"
+		sprite_index = spr_player_walk_left;
 		image_index += 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale

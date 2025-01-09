@@ -18,3 +18,16 @@ coins = 0;
 /// @DnDHash : 2D7D7A4F
 /// @DnDArgument : "var" "is_dead"
 is_dead = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 62DCEBC6
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "attack_previous_sprite"
+attack_previous_sprite = 3;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7CB4DE7F
+/// @DnDArgument : "var" "is_attacking"
+is_attacking = 0;
