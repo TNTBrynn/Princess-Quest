@@ -23,6 +23,14 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			/// @DnDArgument : "instvar" "1"
 			y += -move_speed;
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 36A30BAE
+			/// @DnDParent : 2B7EE3D1
+			/// @DnDArgument : "expr" "90"
+			/// @DnDArgument : "var" "input_direction"
+			input_direction = 90;
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
 			/// @DnDHash : 152907BD

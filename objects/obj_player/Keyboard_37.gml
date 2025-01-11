@@ -24,6 +24,14 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			sprite_index = spr_player_walk_left;
 			image_index += 0;
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 13189F99
+			/// @DnDParent : 342337B1
+			/// @DnDArgument : "expr" "180"
+			/// @DnDArgument : "var" "input_direction"
+			input_direction = 180;
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 230D7DC7

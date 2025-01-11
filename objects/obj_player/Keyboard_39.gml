@@ -33,6 +33,13 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			/// @DnDArgument : "yscale" "1.4"
 			image_xscale = 1.4;image_yscale = 1.4;
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 31D98A63
+			/// @DnDParent : 2F4AA3EF
+			/// @DnDArgument : "var" "input_direction"
+			input_direction = 0;
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 3ECDA877

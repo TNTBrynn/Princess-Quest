@@ -13,7 +13,14 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 		/// @DnDHash : 290E0FBE
 		/// @DnDParent : 5C477E04
 		/// @DnDArgument : "var" "is_attacking"
-		if(is_attacking == 0){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		if(is_attacking == 0){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6CFFD7B1
+			/// @DnDParent : 290E0FBE
+			/// @DnDArgument : "var" "input_direction"
+			input_direction = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 3ECDA877
 			/// @DnDComment : Add move_speed to$(13_10)X so it moves right

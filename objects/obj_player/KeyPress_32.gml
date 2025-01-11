@@ -1,7 +1,10 @@
 // If Alarm 0 is deactivated
-if(is_attacking == 0)
+if(is_attacking == 0 && is_dead == 0)
 {
 	move_speed = 0;
+	var sword = instance_create_layer(x + 0, y + 0, "Instances", obj_sword_attack);
+	sword.image_angle = input_direction;
+	
 	if (sprite_index == spr_player_idle_up || sprite_index == spr_player_walk_up ) {
 		obj_player.attack_previous_sprite = 1;
 		sprite_index = spr_player_attack_up
@@ -20,6 +23,7 @@ if(is_attacking == 0)
 	else {
 		obj_player.attack_previous_sprite = 4;
 		sprite_index = spr_player_attack_left
+		image_xscale = 1.4;
 		is_attacking = 1;
 	}
 }

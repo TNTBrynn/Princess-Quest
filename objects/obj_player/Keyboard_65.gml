@@ -40,4 +40,12 @@ if(is_dead == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 			/// @DnDParent : 417D5FF3
 			/// @DnDArgument : "xscale" "-1.4"
 			/// @DnDArgument : "yscale" "1.4"
-			image_xscale = -1.4;image_yscale = 1.4;}}}
+			image_xscale = -1.4;image_yscale = 1.4;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 24EA6E56
+			/// @DnDParent : 417D5FF3
+			/// @DnDArgument : "expr" "180"
+			/// @DnDArgument : "var" "input_direction"
+			input_direction = 180;}}}
