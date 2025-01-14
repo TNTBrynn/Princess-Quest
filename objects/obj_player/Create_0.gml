@@ -15,3 +15,7 @@ attack_previous_sprite = 3;
 is_attacking = 0;
 
 input_direction = 270;
+
+max_hearts = 3;
+
+hearts = max_hearts;

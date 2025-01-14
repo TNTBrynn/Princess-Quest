@@ -3,7 +3,7 @@
   "%Name":"spr_player_attack_left",
   "bboxMode":2,
   "bbox_bottom":72,
-  "bbox_left":-17,
+  "bbox_left":-30,
   "bbox_right":53,
   "bbox_top":0,
   "collisionKind":1,
