@@ -14,6 +14,13 @@ move_speed = 2;
 /// @DnDArgument : "var" "attacking"
 attacking = false;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 15CAB79A
+/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "var" "hearts"
+hearts = 2;
+
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 5BF1EF42
@@ -21,5 +28,4 @@ attacking = false;
 /// @DnDArgument : "path" "path_to_follow"
 /// @DnDArgument : "speed" "move_speed"
 /// @DnDArgument : "atend" "path_action_continue"
-/// @DnDArgument : "relative" "true"
-path_start(path_to_follow, move_speed, path_action_continue, true);
+path_start(path_to_follow, move_speed, path_action_continue, false);
