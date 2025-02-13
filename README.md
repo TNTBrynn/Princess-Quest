@@ -56,9 +56,8 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d�
 ---
 
 ## 👥 Contact
-💬 **Discord** : [TonServeurDiscord](https://discord.gg/xxx)  
-🐦 **Twitter/X** : [@TonPseudo](https://twitter.com/TonPseudo)  
-📧 **Email** : contact@tonemail.com  
+
+📧 **Email** : gregdes.pro@gmail.com
 
 ---
 
