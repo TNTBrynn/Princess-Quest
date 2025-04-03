@@ -5,5 +5,5 @@ event_inherited();
 
 /// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
-/// @DnDHash : 6EF33264
+/// @DnDHash : 12CCAA23
 room_goto_next();
