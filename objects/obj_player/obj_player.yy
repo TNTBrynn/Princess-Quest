@@ -58,8 +58,8 @@
     "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
   "spriteMaskId":{
-    "name":"spr_player_idle_right",
-    "path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",
+    "name":"spr_player_walk_up",
+    "path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",
   },
   "visible":true,
 }
