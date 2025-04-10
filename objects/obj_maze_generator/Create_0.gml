@@ -16,6 +16,10 @@ maze_grid[start_x][start_y] = 0;
 
 scr_generate_maze(start_x, start_y);
 
+var exit_x = 30;
+var exit_y = 29;
+maze_grid[exit_x][exit_y] = 0;
+
 for (var i = 0; i < maze_width; i++) {
     for (var j = 0; j < maze_height; j++) {
         var INDEX_WALL_TOP = 47;
@@ -41,4 +45,5 @@ for (var i = 0; i < maze_width; i++) {
         }
     }
 }
+
 
