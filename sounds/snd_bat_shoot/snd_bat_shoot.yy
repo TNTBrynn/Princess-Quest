@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.148438,
+  "duration":2.148458,
   "name":"snd_bat_shoot",
   "parent":{
     "name":"Characters",

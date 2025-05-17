@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":76.8,
+  "duration":34.909092,
   "name":"snd_music_game",
   "parent":{
     "name":"Music",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_music_game.wav",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

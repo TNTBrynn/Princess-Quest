@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":2,
+  "compression":1,
   "conversionMode":0,
-  "duration":1.180021,
+  "duration":0.4427211,
   "name":"snd_footstep",
   "parent":{
     "name":"Characters",

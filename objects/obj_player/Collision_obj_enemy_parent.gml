@@ -110,6 +110,20 @@ if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 		/// @DnDArgument : "var" "is_dead"
 		is_dead = 1;
 	
+		/// @DnDAction : YoYo Games.Audio.Pause_All_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5D9F806C
+		/// @DnDParent : 13AFF702
+		audio_pause_all();
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6028BF9C
+		/// @DnDParent : 13AFF702
+		/// @DnDArgument : "soundid" "Death"
+		/// @DnDSaveInfo : "soundid" "Death"
+		audio_play_sound(Death, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 5641C2B6

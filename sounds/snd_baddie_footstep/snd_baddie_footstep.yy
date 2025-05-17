@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":0.442708,
+  "duration":0.4427211,
   "name":"snd_baddie_footstep",
   "parent":{
     "name":"Characters",

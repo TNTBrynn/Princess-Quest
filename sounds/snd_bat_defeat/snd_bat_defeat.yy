@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.902792,
+  "duration":0.90281177,
   "name":"snd_bat_defeat",
   "parent":{
     "name":"Characters",
