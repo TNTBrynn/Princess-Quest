@@ -38,5 +38,5 @@
     "name":"spr_player_attack_down",
     "path":"sprites/spr_player_attack_down/spr_player_attack_down.yy",
   },
-  "visible":false,
+  "visible":true,
 }
